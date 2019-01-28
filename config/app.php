@@ -167,7 +167,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Feritz\Survey\SurveyServiceProvider::class,
         /*
          * Application Service Providers...
          */

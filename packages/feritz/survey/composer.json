@@ -1,0 +1,21 @@
+{
+    "name": "feritz/survey",
+    "description": "package survey",
+    "type": "libary",
+    "require": {
+        "illuminate/support": "^5.7"
+    },
+    "autoload" : {
+        "psr-4":{
+            "Feritz\\Survey\\":"src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "teoferizovic",
+            "email": "ferizovic.teo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
