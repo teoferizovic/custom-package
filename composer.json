@@ -1,5 +1,5 @@
 {
-    "name": "feritz/laravel_custom_package1",
+    "name": "feritz/custom_package",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
