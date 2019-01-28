@@ -11,11 +11,11 @@ class SurveyServiceProvider extends ServiceProvider
 {
 	
 	public function boot(){
-		return "kako je majka";
+		include __DIR__.'/routes.php';
 	}
 
 	public function register(){
-
+		$this->app->make('Feritz\Survey\SurveyController');
 	}
 
 }
